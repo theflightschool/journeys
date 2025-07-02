@@ -1,10 +1,10 @@
 const headingClassMap = {
     'What am I genuinely interested in learning?': 'tfs__learningInterests',
     'Current Location': 'tfs__currentLocation',
-    'Paradigm Shifts': 'tfs__paradigmShifts',
+    'What’s helped me notice my intuition?': 'tfs__intuition',
     'Trustworthy Guides': 'tfs__trustworthyGuides',
-    'Technology Break': 'tfs__technologyBreak',
-    'Personal Practices': 'tfs__personalPractices',
+    'Who am I without my devices?': 'tfs__technologyBreak',
+    'Paradigm Shifts': 'tfs__paradigmShifts',
     'Magical Moments': 'tfs__magicalMoments'
 }
 

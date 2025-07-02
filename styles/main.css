@@ -214,7 +214,7 @@ main:not(.page__index) .notion-collection-card .notion-property__title {
     line-height: 1;
 }
 
-.notion-callout:not(.tfs__personalPractices) .notion-pill {
+.notion-callout:not(.tfs__intuition) .notion-pill {
     background: none;
     padding: 0;
     text-transform: uppercase;
@@ -222,35 +222,35 @@ main:not(.page__index) .notion-collection-card .notion-property__title {
     font-size: 15px;
 }
 
-.notion-callout:not(.tfs__personalPractices) .notion-pill.pill-green {
+.notion-callout:not(.tfs__intuition) .notion-pill.pill-green {
     color: var(--color_green);
 }
 
-.notion-callout:not(.tfs__personalPractices) .notion-pill.pill-blue {
+.notion-callout:not(.tfs__intuition) .notion-pill.pill-blue {
     color: var(--color_blue);
 }
 
-.notion-callout:not(.tfs__personalPractices) .notion-pill.pill-red {
+.notion-callout:not(.tfs__intuition) .notion-pill.pill-red {
     color: var(--color_red);
 }
 
-.notion-callout:not(.tfs__personalPractices) .notion-pill.pill-yellow {
+.notion-callout:not(.tfs__intuition) .notion-pill.pill-yellow {
     color: var(--color_yellow);
 }
 
-.notion-callout:not(.tfs__personalPractices) .notion-pill.pill-orange {
+.notion-callout:not(.tfs__intuition) .notion-pill.pill-orange {
     color: var(--color_orange);
 }
 
-.notion-callout:not(.tfs__personalPractices) .notion-pill.pill-purple {
+.notion-callout:not(.tfs__intuition) .notion-pill.pill-purple {
     color: var(--color_purple);
 }
 
-.notion-callout:not(.tfs__personalPractices) .notion-callout:not(.tfs__personalPractices) .notion-pill.pill-pink {
+.notion-callout:not(.tfs__intuition) .notion-callout:not(.tfs__intuition) .notion-pill.pill-pink {
     color: var(--color_pink);
 }
 
-.notion-callout:not(.tfs__personalPractices) .notion-pill.pill-brown {
+.notion-callout:not(.tfs__intuition) .notion-pill.pill-brown {
     color: var(--color_brown);
 }
 
@@ -269,7 +269,7 @@ main:not(.page__index) .notion-collection-card .notion-property__title {
         gap: 18px;
     }
 
-    .notion-callout:not(.tfs__personalPractices) .notion-pill {
+    .notion-callout:not(.tfs__intuition) .notion-pill {
         font-size: 14px;
         margin-bottom: 16px;
     }
@@ -311,7 +311,7 @@ main:not(.page__index) .notion-collection-card .notion-property__title {
     color: var(--color_charcoal);
     text-align: center;
     font-size: 20px;
-    margin: 40px auto 8px;
+    margin: 50px auto 8px;
     display: none;
 }
 
@@ -772,62 +772,62 @@ main:not(.page__index) .notion-collection-card .notion-property__title {
 }
 
 /* ----------------------------- \\
-** Section: Personal Practices
+** Section: Intuition
 ** ----------------------------- */
 
-.tfs__personalPractices .notion-collection-gallery {
+.tfs__intuition .notion-collection-gallery {
     display: flex;
 }
 
-.tfs__personalPractices .notion-collection-card {
+.tfs__intuition .notion-collection-card {
     border: none;
     padding: 0;
     border-radius: 0;
 }
 
-.tfs__personalPractices .notion-pill {
+.tfs__intuition .notion-pill {
     font-size: calc(var(--cardMainText_fontSize) * .9);
     font-weight: 400;
     color: var(--color_charcoal);
     padding: calc(var(--cardMainText_fontSize) * .5);
 }
 
-.tfs__personalPractices .notion-pill.pill-green {
+.tfs__intuition .notion-pill.pill-green {
     background: var(--color_green);
     background-image: linear-gradient(rgba(255,255,255,.8))
 }
 
-.tfs__personalPractices .notion-pill.pill-blue {
+.tfs__intuition .notion-pill.pill-blue {
     background: var(--color_lightBlue);
     background-image: linear-gradient(rgba(255,255,255,.8))
 }
 
-.tfs__personalPractices .notion-pill.pill-red {
+.tfs__intuition .notion-pill.pill-red {
     background: var(--color_red);
     background-image: linear-gradient(rgba(255,255,255,.8))
 }
 
-.tfs__personalPractices .notion-pill.pill-yellow {
+.tfs__intuition .notion-pill.pill-yellow {
     background: var(--color_yellow);
     background-image: linear-gradient(rgba(255,255,255,.8))
 }
 
-.tfs__personalPractices .notion-pill.pill-orange {
+.tfs__intuition .notion-pill.pill-orange {
     background: var(--color_orange);
     background-image: linear-gradient(rgba(255,255,255,.8))
 }
 
-.tfs__personalPractices .notion-pill.pill-purple {
+.tfs__intuition .notion-pill.pill-purple {
     background: var(--color_purple);
     background-image: linear-gradient(rgba(255,255,255,.8))
 }
 
-.tfs__personalPractices .notion-pill.pill-pink {
+.tfs__intuition .notion-pill.pill-pink {
     background: var(--color_pink);
     background-image: linear-gradient(rgba(255,255,255,.8))
 }
 
-.tfs__personalPractices .notion-pill.pill-brown {
+.tfs__intuition .notion-pill.pill-brown {
     background: var(--color_brown);
     background-image: linear-gradient(rgba(255,255,255,.8))
 }
