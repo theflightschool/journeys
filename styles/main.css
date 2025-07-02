@@ -644,22 +644,26 @@ main:not(.page__index) .notion-collection-card .notion-property__title {
 }
 
 /* ----------------------------- \\
-** Section: Animating Questions
+** Section: Learning Interests
 ** ----------------------------- */
 
-.tfs__animatingQuestions .notion-collection-gallery {
-    grid-template-columns: repeat(2, 1fr);
+.tfs__learningInterests .notion-collection-gallery {
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.tfs__animatingQuestions .notion-collection-card p.notion-property__text:not(:last-of-type) {
+.tfs__learningInterests p.notion-property__text.notion-collection-card__property:not(:last-of-type) {
     font-size: var(--cardTitle_fontSize);
     line-height: var(--cardTitle_lineHeight);
+}
+
+.tfs__learningInterests .notion-property__select + p.notion-property__text.notion-collection-card__property {
     font-weight: var(--cardTitle_fontWeight);
+    margin-bottom: 16px;
 }
 
 @media screen and (max-width: 860px) {
 
-    .tfs__animatingQuestions .notion-collection-gallery {
+    .tfs__learningInterests .notion-collection-gallery {
         display: flex;
         flex-direction: column;
     }

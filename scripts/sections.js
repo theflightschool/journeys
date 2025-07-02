@@ -1,30 +1,20 @@
+const headingClassMap = {
+    'What am I genuinely interested in learning?': 'tfs__learningInterests',
+    'Current Location': 'tfs__currentLocation',
+    'Paradigm Shifts': 'tfs__paradigmShifts',
+    'Trustworthy Guides': 'tfs__trustworthyGuides',
+    'Technology Break': 'tfs__technologyBreak',
+    'Personal Practices': 'tfs__personalPractices',
+    'Magical Moments': 'tfs__magicalMoments'
+}
+
 export function updateSections() {
 
     handleEmptySections();
 
     if( !document.querySelector('.notion-callout.tfs__magicalMoments') ) {
-        let headingClassMap = prepareHeadingClassMap();
         addSectionClasses(headingClassMap);
     }
-
-}
-
-function prepareHeadingClassMap() {
-
-    let obj = {};
-
-    const h2s = document.querySelectorAll('.notion-callout h2');
-
-    for(let h2 of h2s) {
-
-        let h2Text = h2.innerText;
-        let newClass = 'tfs__' + h2Text[0].toLowerCase() + h2Text.substring(1).replace(" ", "");
-
-        obj[h2Text] = newClass;
-
-    }
-
-    return obj;
 
 }
 

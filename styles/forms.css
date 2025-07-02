@@ -68,6 +68,7 @@ h3 {
 }
 
 .tally-block-title + .tally-block:not(.tally-block-text),
+.tally-block-heading-3 + .tally-block:not(.tally-block-text),
 .tally-block-text + .tally-block:not(.tally-block-text) {
     padding-top: 10px!important;
 }
