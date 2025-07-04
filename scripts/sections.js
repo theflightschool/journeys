@@ -2,10 +2,11 @@ const headingClassMap = {
     'What am I genuinely interested in learning?': 'tfs__learningInterests',
     'Current Location': 'tfs__currentLocation',
     'What’s helped me notice my intuition?': 'tfs__intuition',
-    'Trustworthy Guides': 'tfs__trustworthyGuides',
+    'How can I build healthy relationships?': 'tfs__relationships',
     'Who am I without my devices?': 'tfs__technologyBreak',
-    'Paradigm Shifts': 'tfs__paradigmShifts',
-    'Magical Moments': 'tfs__magicalMoments'
+    "What if my beliefs aren’t true?": 'tfs__shiftedBeliefs',
+    "Who lives behind my mask?": 'tfs__authenticSelf',
+    'Magical Light-Kindling Moments': 'tfs__magicalMoments'
 }
 
 export function updateSections() {

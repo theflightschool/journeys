@@ -671,20 +671,20 @@ main:not(.page__index) .notion-collection-card .notion-property__title {
 }
 
 /* ----------------------------- \\
-** Section: Paradigm Shifts
+** Section: Shifted Beliefs
 ** ----------------------------- */
 
-.tfs__paradigmShifts .notion-collection-gallery {
+.tfs__shiftedBeliefss .notion-collection-gallery {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.tfs__paradigmShifts .notion-collection-card__property-list > p:nth-last-of-type(2) {
+.tfs__shiftedBeliefss .notion-collection-card__property-list > p:nth-last-of-type(2) {
     margin-top: 14px;
 }
 
 @media screen and (max-width: 860px) {
 
-    .tfs__paradigmShifts .notion-collection-gallery {
+    .tfs__shiftedBeliefss .notion-collection-gallery {
         display: flex;
         flex-direction: column;
     }
@@ -692,14 +692,27 @@ main:not(.page__index) .notion-collection-card .notion-property__title {
 }
 
 /* ----------------------------- \\
-** Section: Trustworthy Guides
+** Section: Authentic Self
 ** ----------------------------- */
 
-.tfs__trustworthyGuides .notion-collection-gallery {
+.tfs__authenticSelf .notion-collection-gallery {
+    display: flex;
+}
+
+.tfs__authenticSelf .notion-collection-card.gallery {
+    border: none;
+    padding: 0;
+}
+
+/* ----------------------------- \\
+** Section: Relationships
+** ----------------------------- */
+
+.tfs__relationships .notion-collection-gallery {
     grid-template-columns: repeat(2, 1fr)
 }
 
-.tfs__trustworthyGuides .notion-collection .notion-collection-card p:first-of-type {
+.tfs__relationships .notion-collection .notion-collection-card p:first-of-type {
     font-size: var(--cardTitle_fontSize);
     font-weight: var(--cardTitle_fontWeight);
     line-height: var(--cardTitle_lineHeight);
@@ -708,7 +721,7 @@ main:not(.page__index) .notion-collection-card .notion-property__title {
 
 @media screen and (max-width: 860px) {
 
-    .tfs__trustworthyGuides .notion-collection-gallery {
+    .tfs__relationships .notion-collection-gallery {
         display: flex;
         flex-direction: column;
     }
