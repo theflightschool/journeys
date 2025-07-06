@@ -6,6 +6,8 @@ const headingClassMap = {
     'Who am I without my devices?': 'tfs__technologyBreak',
     "What if my beliefs aren’t true?": 'tfs__shiftedBeliefs',
     "Who lives behind my mask?": 'tfs__authenticSelf',
+    "How can I replace my inner critic with love?": 'tfs__loveLetters',
+    "What kindles and dwindles an inner light?": 'tfs__kindleDwindle',
     'Magical Light-Kindling Moments': 'tfs__magicalMoments'
 }
 

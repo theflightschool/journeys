@@ -84,13 +84,13 @@ h2.notion-heading:not(.toggle) {
     font-weight: 300;  
     margin: 0;
     padding: 0;
-    line-height: 1;
 }
 
 h1,
 .notion-header__title {
     color: #000000;
     min-height: 1em;
+    line-height: 1;
 }
 
 p {
@@ -154,7 +154,7 @@ article.notion-root.has-footer {
 }
 
 .notion-collection-gallery {
-    padding-top: 42px;
+    padding-top: 38px;
 }
 
 .notion-collection-card {
@@ -847,6 +847,47 @@ main:not(.page__index) .notion-collection-card .notion-property__title {
 
 @media screen and (max-width: 860px) {
     
+}
+
+/* ----------------------------- \\
+** Section: Love Letters
+** ----------------------------- */
+
+.tfs__loveLetters .notion-collection-gallery {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tfs__loveLetters .notion-collection-card {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.tfs__loveLetters .notion-collection-card img {
+    border-radius: var(--standardBorderRadius);
+}
+
+@media screen and (max-width: 860px) {
+
+    .tfs__loveLetters .notion-collection-gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+}
+
+/* ----------------------------- \\
+** Section: Kindle and Dwindle
+** ----------------------------- */
+
+.tfs__kindleDwindle .notion-collection-gallery {
+    display: flex;
+}
+
+.tfs__kindleDwindle .notion-collection-card.gallery {
+    border: none;
+    padding: 0;
 }
 
 /* ----------------------------- \\
